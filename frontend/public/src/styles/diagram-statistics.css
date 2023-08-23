@@ -1,0 +1,401 @@
+/*--------------------------------------------------------------
+# Chart page
+--------------------------------------------------------------*/
+#diagram-statistics {
+  position: relative;
+  width: 100%;
+  height: 320vh;
+  text-align: center;
+  display: none;
+}
+
+#diagram-statistics h1 {
+  position: relative;
+  color: #2c4964;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+#diagram-statistics h1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  bottom: -20px;
+  background-color: #0066ff;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#diagram-statistics .charts {
+  position: relative;
+  display: block;
+}
+
+/*Bar chart page*/
+
+#diagram-statistics .bar-chart {
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 100vh;
+  transform: translate(35%, -5%);
+}
+
+#diagram-statistics .bar-chart .text-bar h1 {
+  position: relative;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-right: -12px;
+  border: 2px solid #e2e2e2;
+  transform: translateY(50%);
+}
+
+#diagram-statistics .bar-chart h1::before {
+  display: none;
+}
+
+#diagram-statistics #barChart {
+  border: 2px solid #e2e2e2;
+  border-top: #ffffff;
+  border-bottom: #ffffff;
+  background-color: #ffffff;
+  padding: 4px 4px 4px 4px;
+  padding-bottom: 10px;
+}
+
+#diagram-statistics .bar-chart .buttons-bar {
+  position: relative;
+  margin-right: -12px;
+  border: 2px solid #e2e2e2;
+}
+
+#diagram-statistics .dropdown-bar {
+  position: relative;
+  margin-right: -12px;
+  padding-top: 10px;
+  border-left: 2px solid #e2e2e2;
+  border-right: 2px solid #e2e2e2;
+}
+
+#diagram-statistics .dropdown-bar h1 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  transform: translate(-9%, 50%);
+}
+
+#diagram-statistics .dropdown-bar .month-bar {
+  transform: translate(175%, -50%);
+}
+
+#diagram-statistics .dropdown-bar .year-bar {
+  transform: translate(300%, -50%);
+}
+
+/*Doughnut chart page*/
+
+#diagram-statistics .doughnut-chart {
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 170vh;
+  transform: translate(35.5%, -10%);
+}
+
+#diagram-statistics .doughnut-chart h1::before {
+  display: none;
+}
+
+#diagram-statistics .doughnut-chart .text-doughnut h1 {
+  position: relative;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-right: -4px;
+  border: 2px solid #e2e2e2;
+  transform: translateY(50%);
+}
+
+#diagram-statistics .dropdown-doughnut {
+  position: relative;
+  margin-right: -4px;
+  padding-top: 10px;
+  border-left: 2px solid #e2e2e2;
+  border-right: 2px solid #e2e2e2;
+}
+
+#diagram-statistics .dropdown-doughnut h1 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  transform: translate(-9%, 50%);
+}
+
+#diagram-statistics .dropdown-doughnut .month-doughnut {
+  transform: translate(175%, -50%);
+}
+
+#diagram-statistics .dropdown-doughnut .year-doughnut {
+  transform: translate(300%, -50%);
+}
+
+#diagram-statistics #maleChart {
+  padding-top: 10px;
+  border-left: 2px solid #e2e2e2;
+  border-right: 2px solid #e2e2e2;
+  background-color: transparent;
+}
+
+#diagram-statistics #femaleChart {
+  padding-top: 20px;
+  border-left: 2px solid #e2e2e2;
+  border-right: 2px solid #e2e2e2;
+  background-color: transparent;
+}
+
+#diagram-statistics .doughnut-chart .buttons-doughnut1 {
+  position: relative;
+  margin-right: -4px;
+  border: 2px solid #e2e2e2;
+  border-top: transparent;
+}
+
+#diagram-statistics .doughnut-chart .buttons-doughnut2 {
+  position: relative;
+  margin-right: -4px;
+  border: 2px solid #e2e2e2;
+  border-top: transparent;
+}
+
+/*Line chart*/
+
+#diagram-statistics .line-chart {
+  position: relative;
+  display: block;
+  width: 60%;
+  height: 80vh;
+  transform: translate(35%, -30%);
+}
+
+#diagram-statistics .line-chart .text-line h1 {
+  position: relative;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-right: -12px;
+  border: 2px solid #e2e2e2;
+  transform: translateY(50%);
+}
+
+#diagram-statistics .line-chart h1::before {
+  display: none;
+}
+
+#diagram-statistics #lineChart {
+  border: 2px solid #e2e2e2;
+  border-top: #ffffff;
+  border-bottom: #ffffff;
+  background-color: #ffffff;
+  padding: 4px 4px 4px 4px;
+  padding-bottom: 10px;
+}
+
+#diagram-statistics .line-chart .buttons-line {
+  position: relative;
+  margin-right: -12px;
+  border: 2px solid #e2e2e2;
+}
+
+#diagram-statistics .dropdown-line {
+  position: relative;
+  margin-right: -12px;
+  padding-top: 10px;
+  border-left: 2px solid #e2e2e2;
+  border-right: 2px solid #e2e2e2;
+}
+
+#diagram-statistics .dropdown-line h1 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  transform: translateY(50%);
+}
+
+#diagram-statistics .dropdown-line .month-from {
+  transform: translate(-100%, 110%);
+}
+
+#diagram-statistics .dropdown-line .month-to {
+  transform: translate(100%, -110%);
+}
+
+#diagram-statistics .dropdown-line .year-from {
+  transform: translate(-170%, 110%);
+}
+
+#diagram-statistics .dropdown-line .year-to {
+  transform: translate(170%, -110%);
+}
+
+#diagram-statistics .dropdown-line .line {
+  margin: 0;
+  font-size: 18px;
+  color: #2c4964;
+}
+
+/* Download buttons */
+
+#diagram-statistics #download-data-bar {
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 160px;
+}
+
+#diagram-statistics #download-data-bar:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics #download-chart-bar {
+  left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding: 0;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 160px;
+}
+
+#diagram-statistics #download-chart-bar:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics .buttons-doughnut1 #download-data-male {
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 160px;
+}
+
+#diagram-statistics .buttons-doughnut1 #download-data-male:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics .buttons-doughnut1 #download-chart-male {
+  left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding: 0;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 160px;
+}
+
+#diagram-statistics #download-chart-male:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics #download-data-female {
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 160px;
+}
+
+#diagram-statistics #download-data-female:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics #download-chart-female {
+  left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding: 0;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 160px;
+}
+
+#diagram-statistics #download-chart-female:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics #download-data-line {
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 160px;
+}
+
+#diagram-statistics #download-data-line:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#diagram-statistics #download-chart-line {
+  left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  color: #2c4964;
+  border: transparent;
+  font-size: 15px;
+  padding: 0;
+  transition-duration: 0.5s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 160px;
+}
+
+#diagram-statistics #download-chart-line:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}

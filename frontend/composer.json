@@ -1,0 +1,15 @@
+{
+    "name": "vladr/tw-site",
+    "authors": [
+        {
+            "name": "Vlad Rotariu",
+            "email": "vladrotariu24@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}

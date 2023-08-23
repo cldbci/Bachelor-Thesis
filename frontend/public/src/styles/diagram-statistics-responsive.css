@@ -1,0 +1,577 @@
+@media screen and (max-width: 1355px) {
+  #diagram-statistics .dropdown-bar h1 {
+    font-size: 15px;
+    transform: translate(-9%, 60%);
+  }
+
+  #diagram-statistics .dropdown-doughnut h1 {
+    font-size: 15px;
+    transform: translate(-9%, 60%);
+  }
+
+  #diagram-statistics .dropdown-bar .month-bar {
+    transform: translate(165%, -45%);
+    font-size: 12px;
+  }
+
+  #diagram-statistics .dropdown-bar .year-bar {
+    transform: translate(279%, -45%);
+    font-size: 12px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .month-doughnut {
+    transform: translate(165%, -45%);
+    font-size: 12px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .year-doughnut {
+    transform: translate(280%, -45%);
+    font-size: 12px;
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(-100%, 109%);
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(100%, -110%);
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(-170%, 109%);
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(170%, -110%);
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 90vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 155vh;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  #diagram-statistics .dropdown-bar h1 {
+    font-size: 15px;
+    transform: translate(-9%, 60%);
+  }
+
+  #diagram-statistics .dropdown-doughnut h1 {
+    font-size: 15px;
+    transform: translate(-9%, 60%);
+  }
+
+  #diagram-statistics .dropdown-bar .month-bar {
+    transform: translate(180%, -44%);
+  }
+
+  #diagram-statistics .dropdown-bar .year-bar {
+    transform: translate(295%, -44%);
+  }
+
+  #diagram-statistics .dropdown-doughnut .month-doughnut {
+    transform: translate(180%, -44%);
+  }
+
+  #diagram-statistics .dropdown-doughnut .year-doughnut {
+    transform: translate(297%, -44%);
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(-100%, 109%);
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(100%, -110%);
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(-171%, 109%);
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(171%, -110%);
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 80vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 135vh;
+  }
+
+  #diagram-statistics .line-chart {
+    height: 70vh;
+  }
+
+  #diagram-statistics {
+    height: 0vh;
+  }
+
+  #diagram-statistics #download-data-bar {
+    font-size: 12px;
+  }
+
+  #diagram-statistics #download-chart-bar {
+    font-size: 12px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-data-male {
+    font-size: 12px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-chart-male {
+    font-size: 12px;
+  }
+
+  #diagram-statistics #download-data-female {
+    font-size: 12px;
+  }
+
+  #diagram-statistics #download-chart-female {
+    font-size: 12px;
+  }
+
+  #diagram-statistics #download-data-line {
+    font-size: 12px;
+  }
+
+  #diagram-statistics #download-chart-line {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  #diagram-statistics h1 {
+    font-size: 40px;
+  }
+
+  #diagram-statistics .dropdown-bar h1 {
+    font-size: 15px;
+    transform: translate(-11%, 60%);
+  }
+
+  #diagram-statistics .dropdown-doughnut h1 {
+    font-size: 15px;
+    transform: translate(-11%, 60%);
+  }
+
+  #diagram-statistics .dropdown-bar .month-bar {
+    transform: translate(190%, -55%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-bar .year-bar {
+    transform: translate(305%, -55%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .month-doughnut {
+    transform: translate(190%, -54%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .year-doughnut {
+    transform: translate(305%, -54%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(-110%, 126%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(108%, -139%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(-171%, 126%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(180%, -139%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 70vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 120vh;
+  }
+
+  #diagram-statistics #download-data-bar {
+    font-size: 10px;
+    margin-left: 110px;
+  }
+
+  #diagram-statistics #download-chart-bar {
+    font-size: 10px;
+    margin-right: 110px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-data-male {
+    font-size: 10px;
+    margin-left: 110px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-chart-male {
+    font-size: 10px;
+    margin-right: 110px;
+  }
+
+  #diagram-statistics #download-data-female {
+    font-size: 10px;
+    margin-left: 110px;
+  }
+
+  #diagram-statistics #download-chart-female {
+    font-size: 10px;
+    margin-right: 110px;
+  }
+
+  #diagram-statistics #download-data-line {
+    font-size: 10px;
+    margin-left: 110px;
+  }
+
+  #diagram-statistics #download-chart-line {
+    font-size: 10px;
+    margin-right: 110px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #diagram-statistics h1 {
+    font-size: 35px;
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 55vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 95vh;
+  }
+
+  #diagram-statistics .line-chart {
+    height: 50vh;
+  }
+
+  #diagram-statistics .bar-chart .text-bar h1 {
+    font-size: 18px;
+  }
+
+  #diagram-statistics .doughnut-chart .text-doughnut h1 {
+    font-size: 18px;
+  }
+
+  #diagram-statistics .line-chart .text-line h1 {
+    font-size: 18px;
+  }
+
+  #diagram-statistics .dropdown-bar h1 {
+    font-size: 15px;
+    transform: translate(0, 0);
+  }
+
+  #diagram-statistics .dropdown-doughnut h1 {
+    font-size: 15px;
+    transform: translate(0, 0);
+  }
+
+  #diagram-statistics .dropdown-bar .month-bar {
+    transform: translate(0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #diagram-statistics .dropdown-bar .year-bar {
+    transform: translate(0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .month-doughnut {
+    transform: translate(0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .year-doughnut {
+    transform: translate(0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(-110%, 125%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(108%, -140%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(-171%, 125%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(180%, -140%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics #download-data-bar {
+    font-size: 10px;
+    margin-left: 60px;
+  }
+
+  #diagram-statistics #download-chart-bar {
+    font-size: 10px;
+    margin-right: 60px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-data-male {
+    font-size: 10px;
+    margin-left: 60px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-chart-male {
+    font-size: 10px;
+    margin-right: 60px;
+  }
+
+  #diagram-statistics #download-data-female {
+    font-size: 10px;
+    margin-left: 60px;
+  }
+
+  #diagram-statistics #download-chart-female {
+    font-size: 10px;
+    margin-right: 60px;
+  }
+
+  #diagram-statistics #download-data-line {
+    font-size: 10px;
+    margin-left: 60px;
+  }
+
+  #diagram-statistics #download-chart-line {
+    font-size: 10px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #diagram-statistics h1 {
+    font-size: 35px;
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 55vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 90vh;
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(-110%, 125%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(108%, -140%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(-171%, 125%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(180%, -140%);
+    font-size: 10px;
+  }
+
+  #diagram-statistics #download-data-bar {
+    margin-left: 40px;
+  }
+
+  #diagram-statistics #download-chart-bar {
+    margin-right: 40px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-data-male {
+    margin-left: 40px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-chart-male {
+    margin-right: 40px;
+  }
+
+  #diagram-statistics #download-data-female {
+    margin-left: 40px;
+  }
+
+  #diagram-statistics #download-chart-female {
+    margin-right: 40px;
+  }
+
+  #diagram-statistics #download-data-line {
+    margin-left: 40px;
+  }
+
+  #diagram-statistics #download-chart-line {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #diagram-statistics h1 {
+    font-size: 25px;
+  }
+
+  #diagram-statistics .bar-chart {
+    height: 40vh;
+  }
+
+  #diagram-statistics .doughnut-chart {
+    height: 70vh;
+  }
+
+  #diagram-statistics .line-chart {
+    height: 40vh;
+  }
+
+  #diagram-statistics .dropdown-bar h1 {
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-doughnut h1 {
+    font-size: 10px;
+  }
+
+  #diagram-statistics .dropdown-line h1 {
+    font-size: 10px;
+  }
+
+  #diagram-statistics .bar-chart .text-bar h1 {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #diagram-statistics .doughnut-chart .text-doughnut h1 {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #diagram-statistics .line-chart .text-line h1 {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #diagram-statistics .dropdown-bar .month-bar {
+    transform: translate(0, 0);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-bar .year-bar {
+    transform: translate(0, 0);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .month-doughnut {
+    transform: translate(0, 0);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-doughnut .year-doughnut {
+    transform: translate(0, 0);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-line .month-from {
+    transform: translate(0, 20%);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-line .month-to {
+    transform: translate(0, -20%);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-line .year-from {
+    transform: translate(0, 20%);
+    font-size: 8px;
+  }
+
+  #diagram-statistics .dropdown-line .year-to {
+    transform: translate(0, -20%);
+    font-size: 8px;
+  }
+
+  #diagram-statistics #download-data-bar {
+    transform: translate(0, 0);
+    margin-left: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics #download-chart-bar {
+    transform: translate(0, 0);
+    margin-right: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-data-male {
+    transform: translate(0, 0);
+    margin-left: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics .buttons-doughnut1 #download-chart-male {
+    transform: translate(0, 0);
+    margin-right: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics #download-data-female {
+    transform: translate(0, 0);
+    margin-left: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics #download-chart-female {
+    transform: translate(0, 0);
+    margin-right: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics #download-data-line {
+    transform: translate(0, 0);
+    margin-left: 20px;
+    font-size: 7px;
+  }
+
+  #diagram-statistics #download-chart-line {
+    transform: translate(0, 0);
+    margin-right: 20px;
+    font-size: 7px;
+  }
+}
